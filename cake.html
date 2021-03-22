@@ -7,12 +7,12 @@
   <body>
     <script>
       var cakeorbust = prompt("Do you want cake? (yes/no)");
-      if (cakeorbust === "yes") {
+      if (cakeorbust === "yes" || cakeorbust === "YES" || cakeorbust === "y") {
         console.log("Have some cake!");
-      } else if (cakeorbust === "no") {
+      } else if (cakeorbust === "no" || cakeorbust === "NO" || cakeorbust === "n") {
         console.log("No cake for you!");
       } else {
-        console.log("Sorry, I don't undersrand."); //error message 
+        console.log("Sorry, I don't undersrand."); //error message
       }
 
     </script>
